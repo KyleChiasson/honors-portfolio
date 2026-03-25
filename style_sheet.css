@@ -78,15 +78,13 @@ table {
 	margin-bottom: 20;
 }
 
-.image {
-	background-color: white;
-}
-
 .img-box {
 	display: flex;
 	margin: auto;
 	border-radius: 10px;
 	border: 5px solid #353535;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 .img-box div{
@@ -98,12 +96,15 @@ table {
 }
 
 .degree {
-	padding-left: 20;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 10px;
+	border: 10px solid #353535;
+	background-color: #353535;
 }
 
 .degree h5 {
-	margin-top: 10;
-	margin-bottom: 0;
+	margin: 10;
 }
 
 .main {
