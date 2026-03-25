@@ -85,23 +85,16 @@ table {
 .img-box {
 	display: flex;
 	margin: auto;
-}
-
-.img-box div img {
-	height: 25vw;
+	border-radius: 10px;
+	border: 5px solid #353535;
 }
 
 .img-box div{
-	position: relative;
-	margin-right: -15em;
+	border: 10px solid #353535;
 }
 
-.img-box div:nth-child(even) {
-  	padding-top: 200;
-}
-
-.img-box div:last-child {
-  	margin-right: 0;
+.img-box div img {
+	height: 30vw;
 }
 
 .degree {
