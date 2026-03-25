@@ -82,9 +82,13 @@ table {
 	background-color: white;
 }
 
-.img-box{
+.img-box {
 	display: flex;
 	margin: auto;
+}
+
+.img-box img {
+	height:40em;
 }
 
 .img-box div{
