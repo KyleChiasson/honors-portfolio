@@ -1,8 +1,8 @@
 <html>
     <style>
-        #navbar .home a {
+        header .home {
             pointer-events: none;
-            background-color: #111111;
+            background-color: #2a1e30;
         }
     </style>
     <head> 
@@ -10,20 +10,29 @@
         <link rel = 'stylesheet' href = 'style_sheet.css'>
     </head>
     <body onload='init()'>
-        <div id='navbar'></div>
-        <h1>About Me</h1>
-        <h3>Degree</h3>
-        <p>Bachelor of Science in Computer Science (BSCS)</p>
-        <p>Mathematics Minor</p>
-        <p>GPA: 3.901</p>
-        <h3>History</h3>
-        <p>I'm a computer science student that started at OU back in 2021. I took intro to computer science 1 and 2 in high school and decided that that is what I wanted to major in. I was interested by all of the unique applications of math principles, so I decided to fill the rest of my schedule with courses to get a math minor.</p>
-        <img src='BlossomHack.JPEG' alt='Me and my friends at Blossom Hack' height='600'>
-        <img src='BTT.jpg' alt='Me and the members of Bobcat Tabletop' height='600'>
-        <img src='Origins.JPEG' alt='Me and my roomates at Origins' height='600'>
-        <img src='Rufus.JPEG' alt='Me and my friend Jake with Rufus' height='600'>
-        <h3>Looking Forward</h3>
-        <p>I've landed a job at Epic Systems which is a healthcare technology company. I'll be starting there this summer as a software engineer. I'm currently hoping to stick there for a while but will see where life takes me.</p>
-        <p></p>
+        <div class='wrapper'>
+            <header id='navbar'></header>
+            <div class='degree'>
+                <h5>Bachelor of Science in Computer Science (BSCS)</h5>
+                <h5>Mathematics Minor</h5>
+                <h5>GPA: 3.901</h5>
+            </div>
+            <h1>About Me</h1>
+            <div class='main'>
+                <h3>History</h3>
+                <p>I'm a computer science student that started at OU back in 2021. I took intro to computer science 1 and 2 in high school and decided that that is what I wanted to major in. I was interested by all of the unique applications of math principles, so I decided to fill the rest of my schedule with courses to get a math minor.</p>
+            </div>
+            <div class='img-box'>
+                <div><img src='Rufus.JPEG' alt='Me and my friend Jake with Rufus' height='600em'></div>
+                <div><img src='BTT.jpg' alt='Me and the members of Bobcat Tabletop' height='600em'></div>
+                <div><img src='Origins.JPEG' alt='Me and my roomates at Origins' height='600em'></div>
+                <div><img src='BlossomHack.JPEG' alt='Me and my friends at Blossom Hack' height='600em'></div>
+            </div>
+            <div class='main'>
+                <h3>Looking Forward</h3>
+                <p>I've landed a job at Epic Systems which is a healthcare technology company. I'll be starting there this summer as a software engineer. I'm currently hoping to stick there for a while but will see where life takes me.</p>
+            </div>
+            <footer id='footer'></footer>
+        </div>
     </body>
 </html>
